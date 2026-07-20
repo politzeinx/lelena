@@ -45,7 +45,7 @@ function speakText(text) {
 function isBigDay() {
   const now = new Date();
   const targetYear = now.getFullYear();
-  const targetDate = new Date(`August 3, ${targetYear} 00:00:00`);
+  const targetDate = new Date(`July 20, ${targetYear} 00:00:00`);
   return now >= targetDate;
 }
 
