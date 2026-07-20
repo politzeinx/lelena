@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.16ec3e5e.css",
+    "main.js": "./static/js/main.dbd67e7a.js",
+    "static/js/453.1491d429.chunk.js": "./static/js/453.1491d429.chunk.js",
+    "static/media/Cantika Cute Handwriting.otf": "./static/media/Cantika Cute Handwriting.e87d3564f6a6eb066dc8.otf",
+    "index.html": "./index.html",
+    "main.16ec3e5e.css.map": "./static/css/main.16ec3e5e.css.map",
+    "main.dbd67e7a.js.map": "./static/js/main.dbd67e7a.js.map",
+    "453.1491d429.chunk.js.map": "./static/js/453.1491d429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16ec3e5e.css",
+    "static/js/main.dbd67e7a.js"
+  ]
+}

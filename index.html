@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Cartinha para você ♡</p>
+    </div>
+
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 id="letter-title"></h1>
+
+        <img src="cat_heart.gif" class="cat" id="letter-cat" />
+
+        <div id="countdown-container" style="display: none">
+          <p id="countdown-timer"></p>
+        </div>
+
+        <div class="buttons" id="letter-buttons">
+          <button class="btn yes-btn">Sim</button>
+
+          <div class="no-wrapper">
+            <button class="btn no-btn">Não</button>
+          </div>
+        </div>
+
+        <p id="final-text" class="final-text" style="display: none">
+          <strong>Valentine Date:</strong> Meow Restaurant at 7pm. Dress fancy!
+        </p>
+
+        <div id="photobooth-wrapper" style="display: none">
+          <div id="photo-message"><span id="msg-text"></span></div>
+          <iframe id="photobooth-frame" src="photobooth/index.html" allow="camera"></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
